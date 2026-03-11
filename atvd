@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ficha de Inscrição</title>
+</head>
+
+<body>
+
+<h2>Ficha de Inscrição</h2>
+
+<form>
+
+<table border="1">
+
+<tr>
+<td>Nome do candidato:</td>
+<td><input type="text" name="nome"></td>
+</tr>
+
+<tr>
+<td>Endereço:</td>
+<td><input type="text" name="endereco"></td>
+</tr>
+
+<tr>
+<td>CEP:</td>
+<td><input type="text" name="cep"></td>
+</tr>
+
+<tr>
+<td>Cidade:</td>
+<td>
+<select name="cidade">
+<option>-- Cidade --</option>
+<option>Brasília</option>
+<option>São Paulo</option>
+<option>Goiânia</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>UF:</td>
+<td>
+<select name="uf">
+<option>-- UF --</option>
+<option>DF</option>
+<option>GO</option>
+<option>SP</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Telefone:</td>
+<td><input type="text" name="telefone"></td>
+</tr>
+
+<tr>
+<td>RG:</td>
+<td><input type="text" name="rg"></td>
+</tr>
+
+<tr>
+<td>CPF:</td>
+<td><input type="text" name="cpf"></td>
+</tr>
+
+<tr>
+<td>Sexo:</td>
+<td>
+<input type="radio" name="sexo"> Masculino
+<input type="radio" name="sexo"> Feminino
+</td>
+</tr>
+
+<tr>
+<td>Escolaridade:</td>
+<td>
+<select name="escolaridade">
+<option>-- Selecione --</option>
+<option>Ensino Médio</option>
+<option>Ensino Superior</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+<td>Curso:</td>
+<td>
+<select name="curso">
+<option>-- Selecione --</option>
+<option>ADS</option>
+<option>Direito</option>
+<option>Administração</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Senha de acompanhamento:</td>
+<td><input type="password" name="senha"></td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type="submit" value="Cadastrar"></td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
